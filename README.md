@@ -2,13 +2,9 @@ Isso é muito interessante! Ao invés de ficar renderizando páginas que não se
 Observe os pontos-chave:
 a. A divisão de código otimiza o desempenho carregando apenas o código necessário.
 b. O componente carregável simplifica a implementação da divisão de código no React.
-
 c. O React Router 6 oferece uma maneira conveniente de definir e gerenciar rotas.
-
 d. As importações dinâmicas carregam componentes de forma assíncrona quando necessário.
-
 e. A UI alternativa com suspense garante uma melhor experiência do usuário durante o carregamento do componente.
-
 f. A especificação de nomes de blocos ajuda na depuração e no rastreamento de blocos de código carregados.
 
 Como não soube disso antes????
