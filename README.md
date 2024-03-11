@@ -1,8 +1,16 @@
-# React + Vite
+Isso é muito interessante! Ao invés de ficar renderizando páginas que não serão usadas no momento, eu simplesmente posso renderizar apenas a página que o usuário está. Para fazer isso uso o React Loadable com React Router 6 (a versão que estou usando no momento).
+Observe os pontos-chave:
+a. A divisão de código otimiza o desempenho carregando apenas o código necessário.
+b. O componente carregável simplifica a implementação da divisão de código no React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+c. O React Router 6 oferece uma maneira conveniente de definir e gerenciar rotas.
 
-Currently, two official plugins are available:
+d. As importações dinâmicas carregam componentes de forma assíncrona quando necessário.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+e. A UI alternativa com suspense garante uma melhor experiência do usuário durante o carregamento do componente.
+
+f. A especificação de nomes de blocos ajuda na depuração e no rastreamento de blocos de código carregados.
+
+Como não soube disso antes????
+Enfim...
+Créditos: https://medium.com/@sushilkundu143/implementing-code-splitting-with-loadable-component-and-react-router-6-9e3e7c7a8c2e
